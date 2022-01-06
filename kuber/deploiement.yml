@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projet-deploiement
+  labels:
+    app: projetstrokes
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: projetstrokes
+  template:
+    metadata:
+      labels:
+        app: projetstrokes
+    spec:
+      containers:
+      - name: api
+        image: olivier132177/api-projet-ds:v1
+        ports:
+        - containerPort: 8000
+
