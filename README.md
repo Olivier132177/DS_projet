@@ -1,4 +1,4 @@
-# DS_projet1
+# DS_projet
 Projet du parcours Data Engineer DataScientest
 
 Conception de 3 modèles pour détecter les risques d'AVC.
