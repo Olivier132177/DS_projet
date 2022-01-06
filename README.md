@@ -1,4 +1,6 @@
 # DS_projet1
-Projet 1 du parcours Data Engineer DataScientest
+Projet du parcours Data Engineer DataScientest
 
-Création d'un modèle pour détecter les risques d'AVC
+Conception de 3 modèles pour détecter les risques d'AVC
+Création d'une API. 
+Déploiement avec Docker et Kubernetes
